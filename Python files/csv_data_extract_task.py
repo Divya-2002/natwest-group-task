@@ -1,14 +1,6 @@
 import csv
 
 def analyze_data(data, grade_threshold):
-  """
-  Analyzes a list of student data and prints names with average grades above a threshold.
-
-  Args:
-    data: A list of lists, where each sublist represents a student's information (name, age, grades).
-    grade_threshold: The minimum average grade to be considered.
-  """
-
   qualified_students = []
 
   for student in data:
